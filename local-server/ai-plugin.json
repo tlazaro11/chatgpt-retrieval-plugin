@@ -1,17 +1,17 @@
 {
   "schema_version": "v1",
-  "name_for_model": "retrieval",
-  "name_for_human": "Retrieval Plugin",
-  "description_for_model": "Plugin for searching through the user's documents (such as files, emails, and more) to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be found in their personal information.",
-  "description_for_human": "Search through your documents.",
+  "name_for_model": "langchain_docs_db",
+  "name_for_human": "LangChain Docs",
+  "description_for_model": "Plugin for searching up to date information about the LangChain Python Library. Do not use this tool if the user does not ask about LangChain.",
+  "description_for_human": "Information about the LangChain Python Library 0.0.166.",
   "auth": {
     "type": "none"
   },
   "api": {
     "type": "openapi",
-    "url": "http://localhost:3333/.well-known/openapi.yaml"
+    "url": "http://localhost:8000/.well-known/openapi.yaml"
   },
-  "logo_url": "http://localhost:3333/.well-known/logo.png",
+  "logo_url": "http://localhost:8000//.well-known/logo.png",
   "contact_email": "hello@contact.com", 
   "legal_info_url": "hello@legal.com"
 }
